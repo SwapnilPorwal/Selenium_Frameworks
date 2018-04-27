@@ -1,0 +1,10 @@
+# Home Page Objects
+btn_MyAccount=.//*[@id='account']/a
+btn_LogOut=.//a[@id='MasterControl_Welcome1_lbLogout']
+lbl_LoggedInUser =.//span[@id='MasterControl_Welcome1_lblName']
+
+
+# Login Page Object
+txtbx_Email=.//input[@id='email']
+txtbx_Password=.//input[@name='PASSWORD']
+btn_LogIn=.//input[@name='Submit']
