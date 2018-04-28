@@ -1,11 +1,14 @@
 package utility;
  
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.sql.RowIdLifetime;
+import java.util.Iterator;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFRow;
  
 import config.Constants;
@@ -13,15 +16,15 @@ import executionEngine.DriverScript;
     
 public class ExcelUtils 
 {
-				private static XSSFSheet ExcelWSheet;
-                private static XSSFWorkbook ExcelWBook;
-                private static org.apache.poi.ss.usermodel.Cell Cell;
-                private static XSSFRow Row;
-                //private static XSSFRow Row;
+	private static XSSFSheet ExcelWSheet;
+    private static XSSFWorkbook ExcelWBook;
+    private static org.apache.poi.ss.usermodel.Cell Cell;
+    private static XSSFRow Row;
+    //private static XSSFRow Row;
  
-                public static void setExcelFile(String Path) throws Exception 
-                {
-                	try 
+    public static void setExcelFile(String Path) throws Exception 
+    {
+    	try 
                 	{
                 		FileInputStream ExcelFile = new FileInputStream(Path);
                 		ExcelWBook = new XSSFWorkbook(ExcelFile);
@@ -130,5 +133,83 @@ public class ExcelUtils
  
                      }
                 }
- 
-    	}
+        	
+        	@SuppressWarnings("deprecation")
+			public static String[][] getExcelData(String excelLocation , String sheetName)
+        	{
+				try
+				{
+					String dataSets[][] = null;
+					FileInputStream file = new FileInputStream(new File(excelLocation));
+					XSSFWorkbook workbook = new XSSFWorkbook(file);
+					XSSFSheet sheet = workbook.getSheet(sheetName);
+					int totalRow = sheet.getLastRowNum()+1;
+					int totalColumn = sheet.getRow(0).getLastCellNum();
+					dataSets = new String[totalRow-1][totalColumn];
+					
+					Iterator<org.apache.poi.ss.usermodel.Row> rowIterator = sheet.iterator();
+					int i=0;
+					int t=0;
+					
+					while(rowIterator.hasNext())
+					{
+						org.apache.poi.ss.usermodel.Row row = rowIterator.next();
+						if(i++ !=0)
+						{
+							int k=t;
+							t++;
+							
+							Iterator<org.apache.poi.ss.usermodel.Cell> cellIterator = row.cellIterator();
+							int j=0;
+							while(cellIterator.hasNext())
+							{
+								 org.apache.poi.ss.usermodel.Cell cell = cellIterator.next();
+								 
+								 dataSets[k][j++]= cell.getStringCellValue();
+								 System.out.println(cell.getStringCellValue());
+								 /*switch(cell.)
+								 {
+								 case Cell.CELL_TYPE_NUMERIC:
+								 	dataSets[k][j++]= cell.getStringCellValue();
+								 	System.out.println(cell.getNumericCellValue());
+								 	break;
+								 case Cell.CELL_TYPE_STRING:
+									 dataSets[k][j++]= cell.getStringCellValue();
+									 System.out.println(cell.getNumericCellValue());
+									 break;
+								 case Cell.CELL_TYPE_BOOLEAN:
+									 dataSets[k][j++]= cell.getStringCellValue();
+									 System.out.println(cell.getNumericCellValue());
+									 break;
+								 case Cell.CELL_TYPE_FORMULA:
+									 dataSets[k][j++]= cell.getStringCellValue();
+									 System.out.println(cell.getNumericCellValue());
+									 break;
+								 }*/
+							}
+						
+						}	
+						
+						
+					}
+					System.out.println("");
+					file.close();
+					return dataSets;
+				}
+				catch(Exception e)
+				{
+					e.printStackTrace();
+				}
+        		return null;
+        		
+        	}
+
+        	public static void main(String args[])
+        	{
+        		String excelLocation = "./src/dataEngine/DataEngine.xlsx";
+        		String sheetName = "Test Cases";
+        		ExcelUtils excel = new ExcelUtils();
+        		excel.getExcelData(excelLocation, sheetName);
+        	}
+}
+

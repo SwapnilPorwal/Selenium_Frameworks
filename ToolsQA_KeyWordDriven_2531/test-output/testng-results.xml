@@ -1,20 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43731" started-at="2018-04-27T11:23:25Z" finished-at="2018-04-27T11:24:09Z">
+  <suite name="Default suite" duration-ms="77436" started-at="2018-04-27T21:16:32Z" finished-at="2018-04-27T21:17:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43731" started-at="2018-04-27T11:23:25Z" finished-at="2018-04-27T11:24:09Z">
+    <test name="Default test" duration-ms="77436" started-at="2018-04-27T21:16:32Z" finished-at="2018-04-27T21:17:50Z">
       <class name="executionEngine.NewTest">
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:executionEngine.NewTest@100fc185]" name="BeforeMethod" is-config="true" duration-ms="751" started-at="2018-04-27T16:53:25Z" finished-at="2018-04-27T16:53:26Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:executionEngine.NewTest@646d64ab]" name="BeforeTest" is-config="true" duration-ms="960" started-at="2018-04-28T02:46:32Z" finished-at="2018-04-28T02:46:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Test_01()[pri:0, instance:executionEngine.NewTest@100fc185]" name="Test_01" duration-ms="42965" started-at="2018-04-27T16:53:26Z" finished-at="2018-04-27T16:54:09Z">
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:executionEngine.NewTest@646d64ab]" name="beforeMethod" is-config="true" duration-ms="22" started-at="2018-04-28T02:46:33Z" finished-at="2018-04-28T02:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void executionEngine.NewTest.testLogic(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_01 -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogic(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:executionEngine.NewTest@646d64ab]" name="testLogic" duration-ms="42926" started-at="2018-04-28T02:46:33Z" data-provider="testData" finished-at="2018-04-28T02:47:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LogIn_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LogIn in to A1S and Print logged in User Name and Logout]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogic -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executionEngine.NewTest@646d64ab]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-28T02:47:16Z" finished-at="2018-04-28T02:47:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogic status=SUCCESS method=NewTest.testLogic(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:executionEngine.NewTest@646d64ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:executionEngine.NewTest@646d64ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-28T02:47:16Z" finished-at="2018-04-28T02:47:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void executionEngine.NewTest.testLogic(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogic(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:executionEngine.NewTest@646d64ab]" name="testLogic" duration-ms="32820" started-at="2018-04-28T02:47:16Z" data-provider="testData" finished-at="2018-04-28T02:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LogIn_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LogIn in to A1S and Print logged in User Name and Logout]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogic -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executionEngine.NewTest@646d64ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-28T02:47:49Z" finished-at="2018-04-28T02:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogic status=SUCCESS method=NewTest.testLogic(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:executionEngine.NewTest@646d64ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:executionEngine.NewTest@646d64ab]" name="endTest" is-config="true" duration-ms="554" started-at="2018-04-28T02:47:49Z" finished-at="2018-04-28T02:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
       </class> <!-- executionEngine.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

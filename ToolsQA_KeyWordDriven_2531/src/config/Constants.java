@@ -5,7 +5,7 @@ public class Constants {
 	//System Variables
 	public static final String URL = "http://www.avaya.com/ebizuat";
 	public static final String Path_TestData = "./src/dataEngine/DataEngine.xlsx";
-	public static final String Path_OR = "./src/config/OR.txt";
+	public static final String Path_OR = "./src/locators/OR.txt";
 	public static final String File_TestData = "DataEngine.xlsx";
 	public static final String KEYWORD_FAIL = "FAIL";
 	public static final String KEYWORD_PASS = "PASS";

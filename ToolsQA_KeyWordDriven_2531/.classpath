@@ -17,5 +17,7 @@
 	<classpathentry kind="lib" path="C:/Users/sporwal/Downloads/Selenium/Selenium-WorSpace/ToolsQA_KeyWordDriven_2531/resources/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/sporwal/Downloads/Selenium/Selenium-WorSpace/ToolsQA_KeyWordDriven_2531/resources/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/sporwal/Downloads/Selenium/Selenium-WorSpace/ToolsQA_KeyWordDriven_2531/resources/extentreports-2.40.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sporwal/Downloads/Selenium/Selenium-WorSpace/ToolsQA_KeyWordDriven_2531/resources/freemarker-2.3.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

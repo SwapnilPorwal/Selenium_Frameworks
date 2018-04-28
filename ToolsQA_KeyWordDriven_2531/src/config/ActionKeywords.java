@@ -14,7 +14,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import executionEngine.DriverScript;
+import utility.BrowserFactory;
 import utility.Log;
+import utility.Screenshot;
  
 public class ActionKeywords 
 {
@@ -34,10 +36,11 @@ public class ActionKeywords
 			else if(data.equals("IE"))
 			{
 				//Dummy Code, Implement you own code
-				System.setProperty("webdriver.ie.driver", "./resources/IEDriverServer.exe");
-				DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-				caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-				driver=new InternetExplorerDriver(caps);
+				//System.setProperty("webdriver.ie.driver", "./drivers/IEDriverServer.exe");
+				//DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+				//caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+				//driver=new InternetExplorerDriver(caps);
+				driver = BrowserFactory.getBrowser("IE");
 				oLog.info("IE browser started");
 			}
 			else if(data.equals("Chrome"))
@@ -62,6 +65,7 @@ public class ActionKeywords
 		try
 		{
 			oLog.info("Navigating to URL");
+			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get(Constants.URL);
 		}
@@ -120,7 +124,7 @@ public class ActionKeywords
 		try
 		{
 			oLog.info("Closing the browser");
-			driver.quit();
+			BrowserFactory.closeAllDriver();
 		}catch(Exception e)
 		{
 			 Log.error("Not able to Close the Browser --- " + e.getMessage());
@@ -135,6 +139,7 @@ public class ActionKeywords
 			oLog.info("Printing Text present in : "+object);
 			String LoggedInUser = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 			oLog.info(LoggedInUser);
+			Screenshot.getScreenShot("A1SLandingPage");
 		}
 		catch(Exception e)
 		{

@@ -35,7 +35,7 @@ public class DriverScript {
     public static void main(String[] args) throws Exception 
     {
     	ExcelUtils.setExcelFile(Constants.Path_TestData);
-    	DOMConfigurator.configure("log4j.xml");
+    	DOMConfigurator.configure("./src/config/log4j.xml");
     	String Path_OR = Constants.Path_OR;
 		FileInputStream fs = new FileInputStream(Path_OR);
 		OR= new Properties(System.getProperties());

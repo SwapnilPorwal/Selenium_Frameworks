@@ -1,0 +1,644 @@
+2018-04-27 22:49:42,205 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:49:42,208 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:49:42,209 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 22:49:42,209 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:49:42,209 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:49:42,220 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 22:49:47,079 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 22:49:47,376 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 22:49:56,728 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 22:49:57,902 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 22:49:58,650 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 22:50:06,319 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 22:50:11,468 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 22:50:12,045 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 22:50:14,139 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 22:50:14,139 INFO  [Log] X endTestCase 
+2018-04-27 22:50:14,141 INFO  [Log] X endTestCase 
+2018-04-27 22:50:14,141 INFO  [Log] X endTestCase 
+2018-04-27 22:50:14,141 INFO  [Log] X endTestCase 
+2018-04-27 22:50:14,142 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:50:14,142 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:50:14,142 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 22:50:14,143 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:50:14,143 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 22:50:14,144 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 22:50:14,146 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 22:50:17,791 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 22:50:17,851 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 22:50:27,386 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 22:50:28,489 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 22:50:29,187 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 22:50:29,832 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 22:50:34,913 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 22:50:36,905 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-27 22:50:36,954 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 22:50:37,541 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 22:50:38,869 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 22:50:38,869 INFO  [Log] X endTestCase 
+2018-04-27 22:50:38,870 INFO  [Log] X endTestCase 
+2018-04-27 22:50:38,870 INFO  [Log] X endTestCase 
+2018-04-27 22:50:38,870 INFO  [Log] X endTestCase 
+2018-04-27 23:24:25,223 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:25,226 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:25,226 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:24:25,226 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:25,226 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:25,229 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:24:25,305 INFO  [Log] Not able to open the Browser --- The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html info 
+2018-04-27 23:24:25,551 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:24:25,551 INFO  [Log] Not able to navigate --- null info 
+2018-04-27 23:24:25,680 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:24:25,681 ERROR [Log] Not able to Enter UserName --- null error 
+2018-04-27 23:24:25,796 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:24:25,796 ERROR [Log] Not able to Enter UserName --- null error 
+2018-04-27 23:24:25,905 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:24:25,912 ERROR [Log] Not able to click --- null error 
+2018-04-27 23:24:25,995 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:24:31,131 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:24:31,132 ERROR [Log] Not able to click --- null error 
+2018-04-27 23:24:31,213 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:24:31,213 ERROR [Log] Not able to Close the Browser --- null error 
+2018-04-27 23:24:31,366 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:24:31,366 INFO  [Log] X endTestCase 
+2018-04-27 23:24:31,367 INFO  [Log] X endTestCase 
+2018-04-27 23:24:31,367 INFO  [Log] X endTestCase 
+2018-04-27 23:24:31,367 INFO  [Log] X endTestCase 
+2018-04-27 23:24:31,368 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:31,368 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:31,369 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:24:31,369 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:31,369 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:24:31,370 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 23:24:31,371 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:24:31,377 INFO  [Log] Not able to open the Browser --- The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html info 
+2018-04-27 23:24:31,463 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:24:31,464 INFO  [Log] Not able to navigate --- null info 
+2018-04-27 23:24:31,542 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:24:31,542 ERROR [Log] Not able to Enter UserName --- null error 
+2018-04-27 23:24:31,603 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:24:31,603 ERROR [Log] Not able to Enter UserName --- null error 
+2018-04-27 23:24:31,671 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:24:31,672 ERROR [Log] Not able to click --- null error 
+2018-04-27 23:24:31,744 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:24:36,867 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 23:24:36,867 ERROR [Log] Not able to click --- null error 
+2018-04-27 23:24:36,926 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:24:36,926 ERROR [Log] Not able to click --- null error 
+2018-04-27 23:24:37,000 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:24:37,001 ERROR [Log] Not able to Close the Browser --- null error 
+2018-04-27 23:24:37,114 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:24:37,115 INFO  [Log] X endTestCase 
+2018-04-27 23:24:37,115 INFO  [Log] X endTestCase 
+2018-04-27 23:24:37,116 INFO  [Log] X endTestCase 
+2018-04-27 23:24:37,116 INFO  [Log] X endTestCase 
+2018-04-27 23:25:45,961 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:25:45,965 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:25:45,965 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:25:45,965 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:25:45,965 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:25:45,969 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:25:50,922 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:25:51,220 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:26:01,379 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:26:02,306 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:26:03,027 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:26:03,725 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:26:08,884 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:26:24,656 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:26:26,284 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:26:26,285 INFO  [Log] X endTestCase 
+2018-04-27 23:26:26,290 INFO  [Log] X endTestCase 
+2018-04-27 23:26:26,290 INFO  [Log] X endTestCase 
+2018-04-27 23:26:26,290 INFO  [Log] X endTestCase 
+2018-04-27 23:26:26,291 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:26:26,292 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:26:26,292 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:26:26,292 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:26:26,293 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:26:26,294 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 23:26:26,313 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:26:26,314 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:26:26,327 INFO  [Log] Not able to open the Browser --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver info 
+2018-04-27 23:26:26,408 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:26:26,412 INFO  [Log] Not able to navigate --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver info 
+2018-04-27 23:26:26,528 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:26:26,531 ERROR [Log] Not able to Enter UserName --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:26:26,616 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:26:26,618 ERROR [Log] Not able to Enter UserName --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:26:26,724 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:26:26,726 ERROR [Log] Not able to click --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:26:26,833 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:26:31,997 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 23:26:32,001 ERROR [Log] Not able to click --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:26:32,055 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:26:32,057 ERROR [Log] Not able to click --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:26:32,102 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:26:32,202 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:26:32,203 INFO  [Log] X endTestCase 
+2018-04-27 23:26:32,203 INFO  [Log] X endTestCase 
+2018-04-27 23:26:32,203 INFO  [Log] X endTestCase 
+2018-04-27 23:26:32,203 INFO  [Log] X endTestCase 
+2018-04-27 23:29:59,205 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:29:59,208 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:29:59,208 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:29:59,208 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:29:59,209 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:29:59,212 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:30:05,854 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:30:06,200 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:30:15,128 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:30:15,960 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:30:16,563 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:30:17,237 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:30:22,428 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:30:23,470 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:30:25,498 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:30:25,499 INFO  [Log] X endTestCase 
+2018-04-27 23:30:25,501 INFO  [Log] X endTestCase 
+2018-04-27 23:30:25,501 INFO  [Log] X endTestCase 
+2018-04-27 23:30:25,549 INFO  [Log] X endTestCase 
+2018-04-27 23:30:25,555 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:30:25,555 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:30:25,556 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:30:25,556 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:30:25,556 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:30:25,558 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 23:30:25,560 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:30:25,561 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:30:25,575 INFO  [Log] Not able to open the Browser --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver info 
+2018-04-27 23:30:25,696 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:30:25,698 INFO  [Log] Not able to navigate --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver info 
+2018-04-27 23:30:25,796 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:30:25,798 ERROR [Log] Not able to Enter UserName --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:30:25,900 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:30:25,905 ERROR [Log] Not able to Enter UserName --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:30:25,992 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:30:25,994 ERROR [Log] Not able to click --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:30:26,071 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:30:31,186 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 23:30:31,189 ERROR [Log] Not able to click --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:30:31,247 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:30:31,250 ERROR [Log] Not able to click --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:30:31,311 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:30:31,313 ERROR [Log] Not able to Close the Browser --- Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'XX0902000250', ip: '135.123.78.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver error 
+2018-04-27 23:30:31,430 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:30:31,430 INFO  [Log] X endTestCase 
+2018-04-27 23:30:31,431 INFO  [Log] X endTestCase 
+2018-04-27 23:30:31,431 INFO  [Log] X endTestCase 
+2018-04-27 23:30:31,431 INFO  [Log] X endTestCase 
+2018-04-27 23:35:08,199 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:08,202 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:08,203 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:35:08,203 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:08,203 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:08,206 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:35:12,020 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:35:12,329 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:35:20,854 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:35:22,341 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:35:22,937 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:35:23,430 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:35:28,605 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:35:30,021 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:35:31,875 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:35:31,876 INFO  [Log] X endTestCase 
+2018-04-27 23:35:31,878 INFO  [Log] X endTestCase 
+2018-04-27 23:35:31,878 INFO  [Log] X endTestCase 
+2018-04-27 23:35:31,879 INFO  [Log] X endTestCase 
+2018-04-27 23:35:31,880 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:31,880 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:31,881 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:35:31,881 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:31,881 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:35:31,882 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 23:35:31,885 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:35:35,319 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:35:35,409 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:35:44,028 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:35:45,015 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:35:45,506 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:35:45,914 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:35:51,010 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 23:35:51,420 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-27 23:35:51,472 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:35:51,851 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:35:53,557 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:35:53,558 INFO  [Log] X endTestCase 
+2018-04-27 23:35:53,558 INFO  [Log] X endTestCase 
+2018-04-27 23:35:53,558 INFO  [Log] X endTestCase 
+2018-04-27 23:35:53,558 INFO  [Log] X endTestCase 
+2018-04-27 23:54:54,638 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:54:54,641 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:54:54,641 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:54:54,641 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:54:54,641 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:54:54,644 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:55:00,239 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:55:00,550 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:55:10,252 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:55:11,290 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:55:11,951 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:55:12,522 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:55:17,679 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:55:20,582 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:55:22,250 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:55:22,252 INFO  [Log] X endTestCase 
+2018-04-27 23:55:22,254 INFO  [Log] X endTestCase 
+2018-04-27 23:55:22,255 INFO  [Log] X endTestCase 
+2018-04-27 23:55:22,256 INFO  [Log] X endTestCase 
+2018-04-27 23:55:22,257 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:55:22,257 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:55:22,258 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:55:22,258 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:55:22,259 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:55:22,260 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 23:55:22,262 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:55:26,708 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:55:26,782 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:55:37,762 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:55:38,513 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:55:39,252 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:55:39,720 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:55:44,813 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 23:55:45,313 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-27 23:55:45,948 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:55:46,391 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:55:47,596 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:55:47,597 INFO  [Log] X endTestCase 
+2018-04-27 23:55:47,597 INFO  [Log] X endTestCase 
+2018-04-27 23:55:47,597 INFO  [Log] X endTestCase 
+2018-04-27 23:55:47,597 INFO  [Log] X endTestCase 
+2018-04-27 23:57:45,493 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:57:45,496 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:57:45,497 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:57:45,497 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:57:45,497 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:57:45,500 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:57:50,020 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:57:50,292 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:57:59,218 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:58:00,199 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:58:00,809 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:58:01,378 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:58:06,510 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:58:07,184 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:58:08,914 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:58:08,915 INFO  [Log] X endTestCase 
+2018-04-27 23:58:08,916 INFO  [Log] X endTestCase 
+2018-04-27 23:58:08,923 INFO  [Log] X endTestCase 
+2018-04-27 23:58:08,924 INFO  [Log] X endTestCase 
+2018-04-27 23:58:08,925 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:58:08,925 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:58:08,925 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-27 23:58:08,926 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:58:08,926 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-27 23:58:08,929 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-27 23:58:08,935 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-27 23:58:12,621 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-27 23:58:12,711 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-27 23:58:22,110 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-27 23:58:22,921 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-27 23:58:23,504 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-27 23:58:24,164 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-27 23:58:29,274 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-27 23:58:30,332 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-27 23:58:30,698 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-27 23:58:31,225 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-27 23:58:32,552 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-27 23:58:32,553 INFO  [Log] X endTestCase 
+2018-04-27 23:58:32,553 INFO  [Log] X endTestCase 
+2018-04-27 23:58:32,553 INFO  [Log] X endTestCase 
+2018-04-27 23:58:32,554 INFO  [Log] X endTestCase 
+2018-04-28 01:17:13,504 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:13,507 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:13,507 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 01:17:13,508 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:13,508 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:13,510 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 01:17:18,595 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 01:17:18,865 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 01:17:27,921 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 01:17:28,724 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 01:17:29,298 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 01:17:29,849 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 01:17:34,954 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 01:17:36,344 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 01:17:37,988 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 01:17:37,989 INFO  [Log] X endTestCase 
+2018-04-28 01:17:37,991 INFO  [Log] X endTestCase 
+2018-04-28 01:17:37,991 INFO  [Log] X endTestCase 
+2018-04-28 01:17:37,993 INFO  [Log] X endTestCase 
+2018-04-28 01:17:37,994 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:37,994 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:37,995 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 01:17:37,995 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:37,995 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:17:37,996 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 01:17:37,999 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 01:17:41,715 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 01:17:41,785 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 01:17:50,032 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 01:17:50,745 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 01:17:51,290 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 01:17:56,878 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 01:18:01,964 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 01:18:02,199 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 01:18:02,531 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 01:18:02,939 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 01:18:04,202 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 01:18:04,203 INFO  [Log] X endTestCase 
+2018-04-28 01:18:04,203 INFO  [Log] X endTestCase 
+2018-04-28 01:18:04,203 INFO  [Log] X endTestCase 
+2018-04-28 01:18:04,203 INFO  [Log] X endTestCase 
+2018-04-28 01:19:28,795 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:28,797 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:28,798 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 01:19:28,798 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:28,798 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:28,801 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 01:19:33,056 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 01:19:33,349 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 01:19:41,926 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 01:19:42,736 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 01:19:43,452 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 01:19:44,011 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 01:19:49,149 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 01:19:49,624 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 01:19:51,066 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 01:19:51,067 INFO  [Log] X endTestCase 
+2018-04-28 01:19:51,069 INFO  [Log] X endTestCase 
+2018-04-28 01:19:51,069 INFO  [Log] X endTestCase 
+2018-04-28 01:19:51,069 INFO  [Log] X endTestCase 
+2018-04-28 01:19:51,070 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:51,070 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:51,071 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 01:19:51,071 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:51,071 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:19:51,072 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 01:19:51,075 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 01:19:54,234 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 01:19:54,307 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 01:20:02,138 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 01:20:02,952 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 01:20:03,463 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 01:20:03,895 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 01:20:08,989 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 01:20:17,304 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 01:20:17,654 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 01:20:42,008 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 01:20:43,527 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 01:20:43,528 INFO  [Log] X endTestCase 
+2018-04-28 01:20:43,529 INFO  [Log] X endTestCase 
+2018-04-28 01:20:43,529 INFO  [Log] X endTestCase 
+2018-04-28 01:20:43,529 INFO  [Log] X endTestCase 
+2018-04-28 01:59:08,982 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:59:08,985 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:59:08,985 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 01:59:08,985 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:59:08,986 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 01:59:08,988 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 01:59:15,272 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 01:59:15,565 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 01:59:36,997 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 01:59:37,860 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 01:59:38,525 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:00:10,599 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:00:15,683 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:00:16,136 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:00:17,746 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:00:17,746 INFO  [Log] X endTestCase 
+2018-04-28 02:00:17,750 INFO  [Log] X endTestCase 
+2018-04-28 02:00:17,750 INFO  [Log] X endTestCase 
+2018-04-28 02:00:17,751 INFO  [Log] X endTestCase 
+2018-04-28 02:00:17,751 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:17,752 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:17,752 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:00:17,785 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:17,785 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:17,786 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 02:00:17,788 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:00:21,395 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:00:21,465 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:00:29,270 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:00:29,988 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:00:30,543 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:00:31,136 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:00:36,230 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 02:00:36,901 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 02:00:37,229 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:00:48,133 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:00:49,474 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:00:49,519 INFO  [Log] X endTestCase 
+2018-04-28 02:00:49,519 INFO  [Log] X endTestCase 
+2018-04-28 02:00:49,520 INFO  [Log] X endTestCase 
+2018-04-28 02:00:49,520 INFO  [Log] X endTestCase 
+2018-04-28 02:00:49,557 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:49,557 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:49,557 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:00:49,558 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:49,558 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:00:49,559 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:00:52,996 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:00:53,053 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:01:01,029 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:01:01,719 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:01:02,235 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:01:08,528 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:01:13,596 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:01:13,985 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:01:15,146 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:01:15,146 INFO  [Log] X endTestCase 
+2018-04-28 02:01:15,147 INFO  [Log] X endTestCase 
+2018-04-28 02:01:15,148 INFO  [Log] X endTestCase 
+2018-04-28 02:01:15,148 INFO  [Log] X endTestCase 
+2018-04-28 02:01:15,166 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:01:15,167 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:01:15,167 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:01:15,167 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:01:15,170 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:01:15,172 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 02:01:15,173 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:01:18,537 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:01:18,627 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:01:26,653 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:01:27,324 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:01:27,846 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:01:28,299 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:01:33,345 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 02:01:33,856 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 02:01:34,151 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:01:34,591 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:01:35,892 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:01:35,893 INFO  [Log] X endTestCase 
+2018-04-28 02:01:35,893 INFO  [Log] X endTestCase 
+2018-04-28 02:01:35,893 INFO  [Log] X endTestCase 
+2018-04-28 02:01:35,893 INFO  [Log] X endTestCase 
+2018-04-28 02:08:42,549 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:08:42,552 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:08:42,552 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:08:42,552 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:08:42,553 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:08:42,556 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:08:46,934 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:08:47,220 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:08:55,881 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:08:56,680 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:08:57,261 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:08:57,776 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:09:02,936 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:09:13,404 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:09:15,326 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:09:15,327 INFO  [Log] X endTestCase 
+2018-04-28 02:09:15,329 INFO  [Log] X endTestCase 
+2018-04-28 02:09:15,329 INFO  [Log] X endTestCase 
+2018-04-28 02:09:15,330 INFO  [Log] X endTestCase 
+2018-04-28 02:09:15,332 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:15,332 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:15,332 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:09:15,333 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:15,333 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:15,338 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 02:09:15,346 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:09:18,867 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:09:18,935 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:09:28,229 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:09:29,041 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:09:29,570 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:09:35,724 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:09:40,813 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 02:09:41,062 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 02:09:41,374 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:09:41,801 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:09:43,020 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:09:43,021 INFO  [Log] X endTestCase 
+2018-04-28 02:09:43,021 INFO  [Log] X endTestCase 
+2018-04-28 02:09:43,021 INFO  [Log] X endTestCase 
+2018-04-28 02:09:43,021 INFO  [Log] X endTestCase 
+2018-04-28 02:09:43,052 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:43,053 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:43,053 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:09:43,053 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:43,068 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:09:43,069 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:09:47,038 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:09:47,090 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:09:56,086 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:09:56,750 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:09:57,259 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:10:03,526 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:10:08,599 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:10:09,009 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:10:10,265 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:10:10,265 INFO  [Log] X endTestCase 
+2018-04-28 02:10:10,266 INFO  [Log] X endTestCase 
+2018-04-28 02:10:10,266 INFO  [Log] X endTestCase 
+2018-04-28 02:10:10,266 INFO  [Log] X endTestCase 
+2018-04-28 02:10:10,277 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:10:10,277 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:10:10,277 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:10:10,278 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:10:10,278 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:10:10,279 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 02:10:10,293 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:10:13,688 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:10:13,744 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:10:21,762 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:10:22,405 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:10:22,917 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:10:23,368 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:10:28,406 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 02:10:28,993 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 02:10:29,258 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:10:37,568 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:10:38,743 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:10:38,743 INFO  [Log] X endTestCase 
+2018-04-28 02:10:38,743 INFO  [Log] X endTestCase 
+2018-04-28 02:10:38,744 INFO  [Log] X endTestCase 
+2018-04-28 02:10:38,744 INFO  [Log] X endTestCase 
+2018-04-28 02:46:33,953 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:46:33,956 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:46:33,956 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:46:33,957 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:46:33,957 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:46:33,961 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:46:46,536 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:46:47,039 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:46:56,525 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:46:57,586 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:46:58,313 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:46:59,152 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:47:04,262 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:47:14,921 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:47:16,860 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:47:16,861 INFO  [Log] X endTestCase 
+2018-04-28 02:47:16,863 INFO  [Log] X endTestCase 
+2018-04-28 02:47:16,864 INFO  [Log] X endTestCase 
+2018-04-28 02:47:16,865 INFO  [Log] X endTestCase 
+2018-04-28 02:47:16,874 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:47:16,874 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:47:16,875 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_02       $$$$$$$$$$$$$$$$$$$$$$$$$ startTestCase 
+2018-04-28 02:47:16,875 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:47:16,875 INFO  [Log] **************************************************************************************** startTestCase 
+2018-04-28 02:47:16,876 ERROR [Log] Class Utils | Method getCellData | Exception desc : null error 
+2018-04-28 02:47:16,878 INFO  [ActionKeywords] Opening Browser openBrowser 
+2018-04-28 02:47:20,746 INFO  [ActionKeywords] IE browser started openBrowser 
+2018-04-28 02:47:20,806 INFO  [ActionKeywords] Navigating to URL navigate 
+2018-04-28 02:47:28,700 INFO  [ActionKeywords] Entering the text in txtbx_Email input 
+2018-04-28 02:47:29,508 INFO  [ActionKeywords] Entering the text in txtbx_Password input 
+2018-04-28 02:47:30,125 INFO  [ActionKeywords] Clicking on Webelement btn_LogIn click 
+2018-04-28 02:47:30,749 INFO  [ActionKeywords] Wait for 5 seconds waitFor 
+2018-04-28 02:47:35,801 INFO  [ActionKeywords] Printing Text present in : lbl_LoggedInUser printText 
+2018-04-28 02:47:36,106 INFO  [ActionKeywords] Swapnil Porwal printText 
+2018-04-28 02:47:36,504 INFO  [ActionKeywords] Clicking on Webelement btn_LogOut click 
+2018-04-28 02:47:48,449 INFO  [ActionKeywords] Closing the browser closeBrowser 
+2018-04-28 02:47:49,678 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX endTestCase 
+2018-04-28 02:47:49,679 INFO  [Log] X endTestCase 
+2018-04-28 02:47:49,679 INFO  [Log] X endTestCase 
+2018-04-28 02:47:49,679 INFO  [Log] X endTestCase 
+2018-04-28 02:47:49,679 INFO  [Log] X endTestCase 
